@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url(../images/riding-high-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.callout-container-info {
+    float: right;
+    margin: 620px 30px 10px;
+    background-color: #bcdaf7;
+
+}
+
+/*--------------------------------------------Navbar*/
+
+.navbar-container {
+    position: absolute;
+    top: left;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: #bcdaf7;
+
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+   
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    padding-left: 60px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.navbar-dark .navbar-nav .active.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.mark, mark {
+    background-color: #bcdaf7;
+    margin-left: 30px;
+}
+
+.features-container {}
+
+.features h2 {
+font-size: 1.9rem;
+}
+
+.quotes-container {}
+
+.quotes p {
+    background-color: #bcdaf7;
+}
+
+
+
+/*--------------------------------Page Header*/
+
+.page-header {
+    margin-top: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    background-color:  #bcdaf7;
+   
+}
+.page-header h3 {
+    margin-top: 0;
+}
+
+/*-----------------------------------Media*/
+
+.media p {
+    margin-left: 20px;
+}
+
+.media h3 {
+    margin-left: 20px;
+}
+
+.footer h6 {
+    text-align: center;
+}
+
+.social-networks {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
