@@ -4,6 +4,7 @@ RUBY'S RIDING CENTER
 Ruby's Riding Center is a riding center for children of all ages. We cater for children with all types of disabilities be it physical or mental.
 
 Children should all be able to feel normal and being on, or close to a horse, gives them a special connection that empowers them. Results have been amazing to witness.
+
          --------------------------
 
 What We Encourage is a breakdown of how we get through to children and get them to open up, trust and connect to the horses.
@@ -30,7 +31,7 @@ Existing Features
 
   Features to Implement
   ---------------------
-   The Buy Now button- will in furure link to abasket allowing the client to order the items online.
+   The Buy Now button- will in furure link to a basket allowing the client to order the items online.
 
    Technologies Used:
     ----------------

@@ -11,7 +11,11 @@ body {
     background-size: cover;
 }
 
-.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
@@ -21,7 +25,7 @@ body {
 
 .callout-container-info {
     float: right;
-    margin: 620px 30px 10px;
+    margin: 480px 30px 10px;
     background-color: #bcdaf7;
 
 }
@@ -62,8 +66,6 @@ body {
     text-align: right;
     font-size: 30px;
     margin-left: 0.5rem;
-   
-
 }
 
 .navbar-nav .nav-link {
@@ -88,9 +90,15 @@ mark {
 
 .features-container {}
 
-.features h2 {
+.features h3 {
     font-size: 1.9rem;
 }
+
+.features h4 {
+    font-size: 1.5rem;
+    margin-left: 18px;
+}
+
 
 .quotes-container {}
 
@@ -176,12 +184,10 @@ mark {
 
 /*--------------------------------------------Lessons Container*/
 
-.lessons-container{
-    align-items: center;
-    margin-bottom: 20px;
+.lessons h4 {
+    font-size: 1.5rem;
+    margin-left: 18px;
 }
-
-
 
 /*------------------------------------------Video Container*/
 .video {
@@ -195,4 +201,20 @@ mark {
 
 .video p {
     text-align: center;
+}
+
+/*-------------------------------------------Accessories*/
+
+.accessories-container {}
+
+/*--------------------------------------------Newsletter*/
+
+.newsletter {
+    text-align: center;
+}
+
+.form-group {
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
