@@ -218,3 +218,10 @@ mark {
     margin-left: 5rem;
     margin-right: 5rem;
 }
+
+
+@media screen and (max-width: 1393px) {}
+
+@media screen and (max-width: 943px) {}
+
+@media screen and (max-width: 800px) {}

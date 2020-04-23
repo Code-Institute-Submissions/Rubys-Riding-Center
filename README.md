@@ -24,6 +24,8 @@ Our contact page has a very handy map and our contact numbers and email addres f
 Existing Features
  ----------------
   The video- gives the client an idea of the class
+
+  Newsletter Sign Up- to keep the clients up to date with events and new arrivals in the shop
   
   Sign Up form- allows the client to register for a class, by completing the form.
 
@@ -32,6 +34,7 @@ Existing Features
   Features to Implement
   ---------------------
    The Buy Now button- will in furure link to a basket allowing the client to order the items online.
+   It will also have a drop down menu for the age groups.
 
    Technologies Used:
     ----------------
