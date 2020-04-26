@@ -152,6 +152,10 @@ mark {
     margin-left: 20px;
 }
 
+.media span {
+    font-weight: bold;
+}
+
 .media h3 {
     margin-left: 20px;
 }
