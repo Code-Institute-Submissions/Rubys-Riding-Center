@@ -203,6 +203,8 @@ mark {
     text-align: center;
 }
 
+
+
 /*-------------------------------------------Accessories*/
 
 .accessories-container {}
@@ -219,9 +221,156 @@ mark {
     margin-right: 5rem;
 }
 
+.form-control {
+    width: 50%;
+    margin-left: 25%;
+}
 
-@media screen and (max-width: 1393px) {}
+/*-------------------------------------------Contact */
 
-@media screen and (max-width: 943px) {}
+.contact-info h4 {
+    text-align: center;
+}
 
-@media screen and (max-width: 800px) {}
+.contact-info p{
+    text-align: center;
+}
+
+.final-media img {
+    margin-top: -50px;
+    margin-bottom:30px;
+    
+}
+    @media screen and (max-width: 1393px) {
+        .page-header {}
+    }
+
+    @media screen and (max-width: 992px) {
+        .navbar-brand {
+            font-size: 22px;
+        }
+
+        .page-header h2 {
+            font-size: 22px;
+        }
+
+        .page-header h3 {
+            font-size: 23px;
+        }
+
+        .features h4 {
+            font-size: 23px;
+        }
+
+        .lessons h4 {
+            font-size: 22px;
+        }
+
+        .media p {
+            font-size: 12px;
+        }
+
+        .media h3 {
+            font-size: 23px;
+        }
+
+        .quotes p {
+            font-size: 12px;
+        }
+
+        .video {
+            font-size: 13px;
+        }
+
+        .mapouter{
+          position: relative;
+            text-align:right;
+            height:306px;
+            width:488px;
+        }
+            
+        .gmap_canvas {
+            overflow:hidden;
+            background:none;
+            height:306px;
+            width:488px;
+        }
+
+    }
+
+
+    @media screen and (max-width: 576px) {
+        .navbar-brand {
+            font-size: 22px;
+        }
+
+        .page-header h2 {
+            font-size: 22px;
+        }
+
+        .page-header h3 {
+            font-size: 22px;
+        }
+
+        .features h4 {
+            font-size: 22px;
+        }
+
+        .lessons h4 {
+            font-size: 22px;
+        }
+
+        .media p {
+            font-size: 12px;
+        }
+
+        .quotes p {
+            font-size: 12px;
+        }
+
+        .video {
+            font-size: 12px;
+        }
+
+        .social-networks i {
+            font-size: 120%;
+        }
+
+        .footer h6 {
+            font-size: 12px;
+        }
+    }
+
+    @media screen and (max-width: 390px) {
+        .navbar-brand {
+            font-size: 23px;
+        }
+
+        .page-header h2 {
+            font-size: 20px;
+        }
+
+        .page-header h3 {
+            font-size: 20px;
+        }
+
+        .features h4 {
+            font-size: 20px;
+        }
+
+        .lessons h4 {
+            font-size: 20px;
+        }
+
+        .quotes p {
+            font-size: 12px;
+        }
+
+        .video {
+            font-size: 12px;
+        }
+
+        .media h3 {
+            font-size: 23px;
+        }
+    }
