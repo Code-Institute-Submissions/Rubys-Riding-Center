@@ -66,27 +66,12 @@ body {
     background-color: #bcdaf7;
 }
 
-.container .map-container {
-    margin: 0;
-}
-.map-container {
-    width: 480px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid blue;
-}
-.contact-info-container{}
-
-.message-container {
-    border: 1px solid red;
-    width: 480px;
-    margin-left: 510px;
-}
-
-.message-container .form-control{
+.container .form-control{
     width: 360px;
-    
-}
+    margin-left: 40px;
+ }
+
+ 
 
 /*--------------------------------------------Navbar*/
 
@@ -288,7 +273,7 @@ mark {
     margin-right: 5rem;
 }
 
-.form-control {
+.newsletter .form-control {
     width: 50%;
     margin-left: 25%;
 }
@@ -308,6 +293,11 @@ mark {
     text-align: center;
 }
 
+.contact-form {
+    width: 480px;
+    margin-top: -320px;
+    margin-left: 470px;
+}
 .btn-info {
     margin-left: 40px;
 }
