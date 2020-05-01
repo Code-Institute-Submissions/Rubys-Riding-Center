@@ -16,7 +16,7 @@ body {
 .lessons-callout-container {
     height: 100vh;
     background: url(../images/white-horse.jpg) no-repeat center center fixed;
-            -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -40,7 +40,6 @@ body {
     background-size: cover;
 }
 
-
 .container-fluid,
 .container-lg,
 .container-md,
@@ -57,7 +56,6 @@ body {
     float: right;
     margin: 480px 30px 10px;
     background-color: #bcdaf7;
-
 }
 
 .container-wrapper {}
@@ -66,12 +64,10 @@ body {
     background-color: #bcdaf7;
 }
 
-.container .form-control{
+.container .form-control {
     width: 360px;
     margin-left: 40px;
- }
-
- 
+}
 
 /*--------------------------------------------Navbar*/
 
@@ -90,7 +86,6 @@ body {
     width: 100%;
     background-color: #bcdaf7;
     padding: 0;
-
 }
 
 .navbar .navbar-toggler {
@@ -145,7 +140,6 @@ mark {
     margin-left: 18px;
 }
 
-
 .quotes-container {}
 
 .quotes p {
@@ -165,7 +159,6 @@ mark {
 .page-header h2 {
     background-color: #bcdaf7;
     margin-top: 0;
-
 }
 
 .page-header h3 {
@@ -226,7 +219,6 @@ mark {
     margin: 0;
     padding: 1%;
     color: #777777;
-
 }
 
 .quotes {
@@ -255,8 +247,6 @@ mark {
     text-align: center;
 }
 
-
-
 /*-------------------------------------------Accessories*/
 
 .accessories-container {}
@@ -278,10 +268,9 @@ mark {
     margin-left: 25%;
 }
 
-
 /*-------------------------------------------Contact */
 
-.contact-info{
+.contact-info {
     float: left;
 }
 
@@ -289,8 +278,24 @@ mark {
     text-align: center;
 }
 
-.contact-info p {
+.contact-address {
     text-align: center;
+    width: 200px;
+    margin: 0;
+}
+
+.contact-details {
+    text-align: center;
+    width: 200px;
+    float: right;
+    margin-top: -90px;
+}
+
+.contact-email {
+    text-align: center;
+    width: 200px;
+    margin-top: -90px;
+    margin-left: 700px;
 }
 
 .contact-form {
@@ -298,6 +303,7 @@ mark {
     margin-top: -320px;
     margin-left: 470px;
 }
+
 .btn-info {
     margin-left: 40px;
 }
@@ -305,10 +311,7 @@ mark {
 .map-canvas {
     width: 450px;
     height: 306px;
-    
 }
-
-
 
 .final-media img {
     margin-top: -50px;
@@ -316,13 +319,95 @@ mark {
 }
 
 
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+
+    .h2,
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .img {
+        width: 170px;
+    }
+
+    .features h3 {
+        font-size: 1.5rem;
+    }
+
+    .features h4 {
+        font-size: 1.2rem;
+    }
+
+    .features p {
+        font-size: 12px;
+    }
+
+    .page-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .quotes p {
+        font-size: 12px;
+    }
+
+    .social-networks {
+        font-size: 12px;
+    }
+
+    .footer h6 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    /* Medium devices (tablets, 768px and up)
+        @media (max-width: 768px) {
+            .h2,
+            h2 {
+                font-size: 1.8rem;
+            }
+        
+            .img {
+                width: 170px;
+            }
+        
+            .features h3 {
+                font-size: 1.5rem;
+            }
+        
+            .features h4 {
+                font-size: 1.2rem;
+            }
+        
+            .features p {
+                font-size: 12px;
+            }
+        
+            .page-header h3 {
+                font-size: 1.5rem;
+            }
+        
+            .quotes p {
+                font-size: 12px;
+            }
+        
+            .social-networks {
+                font-size: 12px;
+            }
+        
+            .footer h6 {
+                text-align: center;
+                font-size: 12px;
+            }
+        } */
+
+    /* Large devices (desktops, 992px and up)
+        @media (min-width: 992px) {
+            .features h4 {
+                font-size: 24px;
+            }
+        } */
 
 
-
-
-
-
-
-
-    
-
+    /* Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {}
