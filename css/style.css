@@ -69,6 +69,10 @@ body {
     margin-left: 40px;
 }
 
+.contactus-container {
+    display: flex;
+}
+
 /*--------------------------------------------Navbar*/
 
 .navbar-container {
@@ -299,9 +303,10 @@ mark {
 }
 
 .contact-form {
+
     width: 480px;
     margin-top: -320px;
-    margin-left: 470px;
+    margin-left: 550px;
 }
 
 .btn-info {
@@ -359,6 +364,32 @@ mark {
         text-align: center;
         font-size: 12px;
     }
+
+    .lessons h4 {
+        font-size: 1.2rem;
+    }
+
+    .media p {
+        font-size: 12px;
+    }
+
+    .video p {
+        font-size: 12px;
+    }
+
+    .media h3 {
+        font-size: 1.2rem;
+    }
+
+    .newsletter p {
+        font-size: 14px;
+    }
+
+   #iframe {
+    width: 350px;
+    height:206px;
+   }
+
 
     /* Medium devices (tablets, 768px and up)
         @media (max-width: 768px) {
