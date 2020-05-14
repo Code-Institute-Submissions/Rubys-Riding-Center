@@ -33,7 +33,7 @@ body {
 
 .contact-callout-container {
     height: 100vh;
-    background: url(../images/for-big-and-small.jpg) no-repeat center center fixed;
+    background: url(../images/for-big-and-small1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -291,8 +291,9 @@ mark {
 .contact-details {
     text-align: center;
     width: 200px;
-    float: right;
+   float: left;
     margin-top: -90px;
+    margin-left: 400px;
 }
 
 .contact-email {
@@ -309,11 +310,15 @@ mark {
     margin-left: 550px;
 }
 
+textarea.form-control {
+    height: 150px;
+}
+
 .btn-info {
     margin-left: 40px;
 }
 
-.map-canvas {
+#gmap_canvas {
     width: 450px;
     height: 306px;
 }
@@ -323,9 +328,8 @@ mark {
     margin-bottom: 35px;
 }
 
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) {
+/* Small devices (landscape phones, 480px and below)
+@media  (min-width: 320px) and (max-width: 480px) {
 
     .h2,
     h2 {
@@ -384,18 +388,71 @@ mark {
     .newsletter p {
         font-size: 14px;
     }
+}
+    /* Small devices (landscape phones, 481px and up)
+    @media (max-width: 766px) {
 
-   #iframe {
-    width: 350px;
-    height:206px;
-   }
+        .h2,
+        h2 {
+            font-size: 1.9rem;
+        }
 
+        .img {
+            vertical-align: middle;
+            border-style: none;
+            width: 180px;
+        }
 
-    /* Medium devices (tablets, 768px and up)
-        @media (max-width: 768px) {
+        .features h3 {
+            font-size: 1.7rem;
+        }
+
+        .features h4 {
+            font-size: 1.4rem;
+            margin-left: 18px;
+        }
+
+        .media p {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+    }
+        .page-header h3 {}
+
+        .quotes p {}
+
+        .social-networks {}
+
+        .footer h6 {}
+
+        /* .lessons h4 {
+        font-size: 1.2rem;
+    }
+
+    .media p {
+        font-size: 12px;
+    }
+
+    .video p {
+        font-size: 12px;
+    }
+
+    .media h3 {
+        font-size: 1.2rem;
+    }
+
+    .newsletter p {
+        font-size: 14px;
+    }
+
+    
+    
+
+    /*Medium devices (tablets, 768px and up)
+        @media (min-width: 768px)and (max-width: 1200px) {
             .h2,
             h2 {
-                font-size: 1.8rem;
+                font-size: 1.9rem;
             }
         
             .img {
@@ -411,7 +468,7 @@ mark {
             }
         
             .features p {
-                font-size: 12px;
+                font-size: 14px;
             }
         
             .page-header h3 {
@@ -430,7 +487,7 @@ mark {
                 text-align: center;
                 font-size: 12px;
             }
-        } */
+        } 
 
     /* Large devices (desktops, 992px and up)
         @media (min-width: 992px) {
@@ -440,5 +497,5 @@ mark {
         } */
 
 
-    /* Extra large devices (large desktops, 1200px and up)*/
+        /* Extra large devices (large desktops, 1200px and up)
     @media (min-width: 1200px) {}
