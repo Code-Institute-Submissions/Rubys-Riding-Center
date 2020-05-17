@@ -288,11 +288,11 @@ mark {
 }
 
 
-.contact-form{
-width: 270px;
-padding-right: 05px;
+.contact-form {
+    width: 270px;
+    padding-right: 05px;
 
-margin-right: 0px;
+    margin-right: 0px;
 
 }
 
@@ -334,8 +334,220 @@ margin-right: 0px;
     margin-left: -5px;
 }
 
-/* Small devices (landscape phones, 480px and below)
-@media  (min-width: 320px) and (max-width: 480px) {
+/* Small devices (landscape phones, 330px and below)*/
+@media (max-width: 300px) {
+
+    .navbar-light .navbar-brand {
+        font-size: 1.65rem;
+        padding-left: 0px;
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .h3,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .img {
+        width: 170px;
+        margin-left: 16px;
+    }
+
+    .features h3,
+    .page-header h3 {
+        font-size: 1.7rem;
+    }
+
+    .features h4,
+    .media h3 {
+        font-size: 1.2rem;
+
+    }
+
+    .features p,
+    .quotes p,
+    .newsletter p,
+    .social-networks,
+    .footer h6 {
+        font-size: 12px;
+    }
+
+    .lessons h4 {
+        font-size: 1.2rem;
+        margin-left: 18px;
+    }
+
+    .video p {
+        font-size: 13px;
+    }
+
+    .html5-video-player:not(.ytp-transparent),
+    .html5-video-player.unstarted-mode,
+    .html5-video-player.ad-showing,
+    .html5-video-player.ended-mode,
+    .html5-video-player.ytp-fullscreen {
+        background-color: #000;
+        width: 300px;
+        height: 456px;
+    }
+
+    #element.style {
+        width: 390px;
+    }
+    .newsletter .form-control  {
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 107px;
+        height: 38px;
+        margin-left: 5px;
+    }
+
+    #gmap_canvas {
+        width: 250px;
+        height: 206px;
+    }
+    .contact-form {
+        width: 250px;
+        padding-right: 05px;
+        margin-right: 0px;
+    }
+}
+
+/* Small devices (landscape phones, 576 and below)*/
+@media (max-width: 576px) {
+
+    .navbar-light .navbar-brand {
+        font-size: 1.7rem;
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .h3,
+    h3 {
+        font-size: 1.5rem;
+    }
+
+
+    .img {
+        width: 180px;
+        margin-left: 16px;
+    }
+
+    .features h3,
+    .page-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .features h4 {
+        font-size: 1.3rem;
+    }
+
+    .features p,
+    .media p,
+    .quotes p,
+    .newsletter p,
+    .social-networks,
+    .footer h6 {
+        font-size: 13px;
+    }
+
+    .lessons h4 {
+        font-size: 1.3rem;
+    }
+
+    .video p {
+        font-size: 13px;
+    }
+
+    .html5-video-player:not(.ytp-transparent),
+    .html5-video-player.unstarted-mode,
+    .html5-video-player.ad-showing,
+    .html5-video-player.ended-mode,
+    .html5-video-player.ytp-fullscreen {
+        background-color: #000;
+        width: 550px;
+        height: 456px;
+    }
+
+    #element.style {
+        width: 550px;
+    }
+
+    .newsletter .form-control {
+        width: 176px;
+        padding-left: 43px;
+        padding-right: 15px;
+    }
+}
+
+     /*Medium devices (tablets, from 577 to 768px)*/
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .h2,
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    .h3,
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .img {
+        width: 180px;
+        margin-left: 16px;
+    }
+
+    .features h3,
+    .page-header h3 {
+        font-size: 1.6rem;
+    }
+
+    .features h4 {
+        font-size: 1.5rem;
+    }
+
+    .features p,
+    .media p,
+    .quotes p,
+    .newsletter p,
+    .social-networks,
+    .footer h6 {
+        font-size: 14px;
+    }
+
+    .lessons h4 {
+        font-size: 1.4rem;
+    }
+
+    .video p {
+        font-size: 14px;
+    }
+
+    .html5-video-player:not(.ytp-transparent),
+    .html5-video-player.unstarted-mode,
+    .html5-video-player.ad-showing,
+    .html5-video-player.ended-mode,
+    .html5-video-player.ytp-fullscreen {
+        background-color: #000;
+        width: 550px;
+        height: 456px;
+    }
+
+    #element.style {
+        width: 550px;
+    }
+}
+
+/*Large devices (tablets, from 768 to 992px)*/
+@media (min-width: 768px) and (max-width: 992px) {
 
     .h2,
     h2 {
@@ -343,165 +555,85 @@ margin-right: 0px;
     }
 
     .img {
-        width: 170px;
+        width: 180px;
+        margin-left: 16px;
     }
 
-    .features h3 {
-        font-size: 1.5rem;
+    .features h3,
+    .page-header h3 {
+        font-size: 1.7rem;
     }
 
     .features h4 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
-    .features p {
-        font-size: 12px;
-    }
-
-    .page-header h3 {
-        font-size: 1.5rem;
-    }
-
-    .quotes p {
-        font-size: 12px;
-    }
-
-    .social-networks {
-        font-size: 12px;
-    }
-
+    .features p,
+    .media p,
+    .quotes p,
+    .social-networks,
     .footer h6 {
-        text-align: center;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .lessons h4 {
-        font-size: 1.2rem;
-    }
-
-    .media p {
-        font-size: 12px;
+        font-size: 1.4rem;
     }
 
     .video p {
-        font-size: 12px;
-    }
-
-    .media h3 {
-        font-size: 1.2rem;
-    }
-
-    .newsletter p {
         font-size: 14px;
+    }
+
+    .html5-video-player:not(.ytp-transparent),
+    .html5-video-player.unstarted-mode,
+    .html5-video-player.ad-showing,
+    .html5-video-player.ended-mode,
+    .html5-video-player.ytp-fullscreen {
+        background-color: #000;
+        width: 550px;
+        height: 456px;
+    }
+
+    #element.style {
+        width: 550px;
     }
 }
-    /* Small devices (landscape phones, 481px and up)
-    @media (max-width: 766px) {
 
-        .h2,
-        h2 {
-            font-size: 1.9rem;
-        }
+/* Extra Large devices (desktops, 1200px and below)*/
+@media (min-width: 993px) and (max-width: 1200px) {
 
-        .img {
-            vertical-align: middle;
-            border-style: none;
-            width: 180px;
-        }
-
-        .features h3 {
-            font-size: 1.7rem;
-        }
-
-        .features h4 {
-            font-size: 1.4rem;
-            margin-left: 18px;
-        }
-
-        .media p {
-            margin-left: 20px;
-            font-size: 14px;
-        }
-    }
-        .page-header h3 {}
-
-        .quotes p {}
-
-        .social-networks {}
-
-        .footer h6 {}
-
-        /* .lessons h4 {
-        font-size: 1.2rem;
+    .h2,
+    h2 {
+        font-size: 1.9rem;
     }
 
-    .media p {
-        font-size: 12px;
+    .img {
+        width: 180px;
+        margin-left: 16px;
+    }
+
+    .features h3,
+    .page-header h3 {
+        font-size: 1.8rem;
+    }
+
+    .features h4 {
+        font-size: 1.7rem;
+    }
+
+    .features p,
+    .media p,
+    .quotes p,
+    .social-networks,
+    .footer h6 {
+        font-size: 16px;
+    }
+
+    .lessons h4 {
+        font-size: 1.5rem;
     }
 
     .video p {
-        font-size: 12px;
+        font-size: 15px;
     }
-
-    .media h3 {
-        font-size: 1.2rem;
-    }
-
-    .newsletter p {
-        font-size: 14px;
-    }
-
-    
-    
-
-    /*Medium devices (tablets, 768px and up)
-        @media (min-width: 768px)and (max-width: 1200px) {
-            .h2,
-            h2 {
-                font-size: 1.9rem;
-            }
-        
-            .img {
-                width: 170px;
-            }
-        
-            .features h3 {
-                font-size: 1.5rem;
-            }
-        
-            .features h4 {
-                font-size: 1.2rem;
-            }
-        
-            .features p {
-                font-size: 14px;
-            }
-        
-            .page-header h3 {
-                font-size: 1.5rem;
-            }
-        
-            .quotes p {
-                font-size: 12px;
-            }
-        
-            .social-networks {
-                font-size: 12px;
-            }
-        
-            .footer h6 {
-                text-align: center;
-                font-size: 12px;
-            }
-        } 
-
-    /* Large devices (desktops, 992px and up)
-        @media (min-width: 992px) {
-            .features h4 {
-                font-size: 24px;
-            }
-        } */
-
-
-/* Extra large devices (large desktops, 1200px and up)
-    @media (min-width: 1200px) {}
+}
