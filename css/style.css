@@ -243,7 +243,22 @@ mark {
 }
 
 /*------------------------------------------Video Container*/
-.video {
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+video {
     text-align: center;
 }
 
@@ -398,7 +413,8 @@ mark {
     #element.style {
         width: 390px;
     }
-    .newsletter .form-control  {
+
+    .newsletter .form-control {
         padding-left: 5px;
         padding-right: 5px;
         width: 107px;
@@ -410,6 +426,7 @@ mark {
         width: 250px;
         height: 206px;
     }
+
     .contact-form {
         width: 250px;
         padding-right: 05px;
@@ -487,7 +504,7 @@ mark {
     }
 }
 
-     /*Medium devices (tablets, from 577 to 768px)*/
+/*Medium devices (tablets, from 577 to 768px)*/
 @media (min-width: 577px) and (max-width: 768px) {
 
     .h2,
@@ -609,7 +626,7 @@ mark {
 
     .img {
         width: 180px;
-        margin-left: 16px;
+        margin-left: 0;
     }
 
     .features h3,
@@ -619,6 +636,11 @@ mark {
 
     .features h4 {
         font-size: 1.7rem;
+        margin-left: 0;
+    }
+
+    .media p {
+        margin-left: 0;
     }
 
     .features p,
