@@ -50,6 +50,7 @@ body {
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
+   
 }
 
 .callout-container-info {
@@ -127,7 +128,7 @@ mark {
 .features-container {}
 
 .features h3 {
-    font-size: 1.9rem;
+    font-size: 1.rem;
 }
 
 .features h4 {
@@ -198,7 +199,8 @@ mark {
 }
 
 .media h3 {
-    margin-left: 20px;
+    margin-left: 0px;
+    font-size: 1.5rem;
 }
 
 /*-----------------------------------------Footer*/
@@ -232,12 +234,13 @@ mark {
 
 .lessons h4 {
     font-size: 1.5rem;
-    margin-left: 18px;
+    margin-left: 40px;
     margin-top: 20px;
 }
 
 .lessons p {
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 /*------------------------------------------Video Container*/
@@ -255,7 +258,6 @@ mark {
     width: 100%;
     height: 100%;
 }
-
 
 video {
     text-align: center;
@@ -292,14 +294,22 @@ video {
 }
 
 /*-------------------------------------------Contact*/
-    {
-
-    display: flex;
-    margin-right: -15px;
-    margin-left: -15px;
-}
+.form-group {
+    margin-left: 40px;
+    margin-bottom: 0;
+    
 }
 
+.features {
+    padding-bottom: 10px;
+}
+
+.btn.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-left: 40px;
+}
 
 .final-media img {
     margin-top: -50px;
