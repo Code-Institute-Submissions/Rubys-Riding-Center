@@ -50,7 +50,7 @@ body {
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-   
+
 }
 
 .callout-container-info {
@@ -92,7 +92,7 @@ body {
     color: black;
     font-weight: bold;
     text-align: right;
-    font-size: 30px;
+    font-size: 26px;
     margin-left: 0.5rem;
     padding-left: 8px;
 }
@@ -143,6 +143,7 @@ mark {
     background-color: #bcdaf7;
     margin-left: 15px;
     margin-right: 15px;
+    font-size: 15px;
 }
 
 /*--------------------------------Page Header*/
@@ -156,10 +157,12 @@ mark {
 .page-header h2 {
     background-color: #bcdaf7;
     margin-top: 0;
+    font-size: 1.7rem;
 }
 
 .page-header h3 {
     margin-top: 0;
+    font-size: 1.6rem;
 }
 
 /*-------------------------------------Block dividers */
@@ -185,13 +188,15 @@ mark {
 /*-----------------------------------Media*/
 
 .media p {
-    margin-left: 0px;
+    margin-left: 15px;
     margin-right: 40px;
+    font-size: 15px;
 }
 
 .media-body {
     flex: 1;
-    margin-right: 30px;
+    margin-right: 25px;
+    margin-left: 15px;
 }
 
 .media span {
@@ -239,8 +244,9 @@ mark {
 }
 
 .lessons p {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 45px;
+    margin-right: 20px;
+    font-size: 15px;
 }
 
 /*------------------------------------------Video Container*/
@@ -270,12 +276,19 @@ video {
 
 .video p {
     text-align: center;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-right: 18px;
 }
 
 /*-------------------------------------------Accessories*/
 
 .accessories-container {}
 
+.media h3 {
+    margin-left: 12px;
+    font-size: 1.3rem;
+}
 /*--------------------------------------------Newsletter*/
 
 .newsletter {
@@ -293,23 +306,36 @@ video {
     margin-left: 25%;
 }
 
+.newsletter.btn.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-left: 0;
+}
 /*-------------------------------------------Contact*/
+
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-top: 20px;
+}
+
 .form-group {
     margin-left: 40px;
     margin-bottom: 0;
-    
+
 }
 
 .features {
     padding-bottom: 10px;
 }
 
-.btn.btn-primary {
+.form.btn.btn-primary {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
     margin-left: 40px;
 }
+
 
 .final-media img {
     margin-top: -50px;
@@ -317,88 +343,17 @@ video {
     margin-left: -5px;
 }
 
-/* Small devices (landscape phones, 330px and below)
-@media (max-width: 300px) {
+/*Small-devices ( landscape phones, 320px and below)*/
+@media (max-width: 320px) {
 
     .navbar-light .navbar-brand {
         font-size: 1.65rem;
         padding-left: 0px;
     }
-
-    .h2,
-    h2 {
-        font-size: 1.6rem;
-    }
-
-    .h3,
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    .img {
-        width: 170px;
-        margin-left: 16px;
-    }
-
-    .features h3,
-    .page-header h3 {
-        font-size: 1.7rem;
-    }
-
-    .features h4,
-    .media h3 {
-        font-size: 1.2rem;
-
-    }
-
-    .features p,
-    .quotes p,
-    .newsletter p,
-    .social-networks,
-    .footer h6 {
-        font-size: 12px;
-    }
-
-    .lessons h4 {
-        font-size: 1.2rem;
-        margin-left: 18px;
-    }
-
-    .video p {
-        font-size: 13px;
-    }
-
-    .html5-video-player:not(.ytp-transparent),
-    .html5-video-player.unstarted-mode,
-    .html5-video-player.ad-showing,
-    .html5-video-player.ended-mode,
-    .html5-video-player.ytp-fullscreen {
-        background-color: #000;
-        width: 300px;
-        height: 456px;
-    }
-
-    #element.style {
-        width: 390px;
-    }
-
-    .newsletter .form-control {
-        padding-left: 5px;
-        padding-right: 5px;
-        width: 107px;
-        height: 38px;
-        margin-left: 5px;
-    }
-
-    /*.contact-form {
-        width: 250px;
-        padding-right: 05px;
-        margin-right: 0px;
-    }*/
-}
-
-/* Small devices (landscape phones, 576 and below)
-@media (max-width: 576px) {
+    
+    
+/* Small to Medium Devices (landscape phones, 720 and below)*/
+@media (min-width: 320) and (max-width:720px) {
 
     .navbar-light .navbar-brand {
         font-size: 1.7rem;
@@ -413,7 +368,6 @@ video {
     h3 {
         font-size: 1.5rem;
     }
-
 
     .img {
         width: 180px;
@@ -467,8 +421,8 @@ video {
     }
 }
 
-/*Medium devices (tablets, from 577 to 768px)
-@media (min-width: 577px) and (max-width: 768px) {
+/*Large devices (tablets, from 720 to 1024px)*/
+@media (min-width: 720px) and (max-width: 1024px) {
 
     .h2,
     h2 {
@@ -526,8 +480,8 @@ video {
     }
 }
 
-/*Large devices (tablets, from 768 to 992px)
-@media (min-width: 768px) and (max-width: 992px) {
+/*Large devices (tablets, from 1024 to 1300px)*/
+@media (min-width: 1024px) and (max-width: 1300px) {
 
     .h2,
     h2 {
@@ -579,46 +533,4 @@ video {
     }
 }
 
-/* Extra Large devices (desktops, 1200px and below)
-@media (min-width: 993px) and (max-width: 1200px) {
-
-    .h2,
-    h2 {
-        font-size: 1.9rem;
-    }
-
-    .img {
-        width: 180px;
-        margin-left: 0;
-    }
-
-    .features h3,
-    .page-header h3 {
-        font-size: 1.8rem;
-    }
-
-    .features h4 {
-        font-size: 1.7rem;
-        margin-left: 0;
-    }
-
-    .media p {
-        margin-left: 0;
-    }
-
-    .features p,
-    .media p,
-    .quotes p,
-    .social-networks,
-    .footer h6 {
-        font-size: 16px;
-    }
-
-    .lessons h4 {
-        font-size: 1.5rem;
-    }
-
-    .video p {
-        font-size: 15px;
-    }*/
 }
