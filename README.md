@@ -92,13 +92,14 @@ The middle of the page is very visual with photos and a breakdown of what the ri
   ### Technologies Used:
     --------------------
    The technologies used in this project were:
-   * [HTML](#https://en.wikipedia.org/wiki/HTML) - This is a markup language. It is used for rendering the website.
-   * [CSS](#https://en.wikipedia.org/wiki/CSS)  - Cascading Style Sheet is a style sheet language that is used for describing the appearance    and presentation of a document written in HTML5. 
-  * [Bootstrap](#https://getbootstrap.com/) - Is a framework that customizes and makes the site mobile first responsive.I used it for its grid layout, styling,buttons and forms and for structuring the hamburgr button.
-  * Git - installed on a local device and used to enable version control.
-  * Github - Used to host the repository of all previous versions upto and including the final build.
+   - **[HTML:](https://en.wikipedia.org/wiki/HTML')** - This is a markup language. It is used for rendering the website.
+   - **[CSS:](https://en.wikipedia.org/wiki/CSS')**  - Cascading Style Sheet is a style sheet language that is used for describing the appearance    and presentation of a document written in HTML5. 
+  - **[Bootstrap](https://getbootstrap.com/)** - Is a framework that customizes and makes the site mobile first responsive.I used it for its grid layout, styling,buttons and forms and for structuring the hamburgr button.
+  - Git - installed on a local device and used to enable version control.
+  - **[Github](https://github.com/)**
+   - Used to host the repository of all previous versions upto and including the final build.
   * Github pages - used to deploy the final site.
-  * [Balsamiq](#https://balsamiq.com/wireframes/) - Used for the initial build wireframes.
+  - **[Balsamiq](https://balsamiq.com/wireframes/)** - Used for the initial build wireframes.
 
 [Back to Top](#table-of-contents)
 
@@ -133,41 +134,45 @@ Paste the Git URL copied from above and click "Ok".
 #### Media
 
 * Home Page
-    * Main Image from [Pexels](#https://www.pexels.com/search/children%20and%20horses)
-* What We Encourage
-    * [Pintrest](#https://pinterest.com)
-    * [Disabled children](#https://www.ilfordrecorder.co.uk/news/how-the-lives-of-disabled-children-are-being-transformed-by-the-work-of-chigwell-riding-school-1-1751011)
-    * [Having fun](#https://healthykids4u.com/?s=horses)
-    * [Group Outrides](#https://www.bookhorseridingholidays.com)
-    * [Learning to Ride](#https://www.sherwoodridingschool.co.uk/13-ways-horseback-riding-lessons-can-improve-life/)
+    * Main Image from 
+        - **[Pexels:](https://www.pexels.com/search/children%20and%20horses)**
+    * What We Encourage
+        - **[Pintrest:](https://pinterest.com)**
+        - **[Disabled children](https://www.ilfordrecorder.co.uk/news/how-the-lives-of-disabled-children-are-being-transformed-by-the-work-of-chigwell-riding-school-1-1751011)**
+        - **[Having fun](https://healthykids4u.com/?s=horses)**
+        - **[Group Outrides](https://www.bookhorseridingholidays.com)**
+        - **[Learning to Ride](https://www.sherwoodridingschool.co.uk/13-ways-horseback-riding-lessons-can-improve-life/)**
 
-    * Lessons Page
-        * Main Image from [Needpix](#https://www.needpix.com/photo/463054/white-horse-jumping-child-white-horse-jumping-sport-riding-competition-show)
+* Lessons Page
+    * Main Image from
+        - **[Needpix](https://www.needpix.com/photo/463054/white-horse-jumping-child-white-horse-jumping-sport-riding-competition-show)**
     * What we Teach
-          * [Beginner Lessons](#https://horseandrider.com/western-horse-life/why-kids-should-ride)
-          * [All Ages](#https://michaelmurray.ca/riding-horses-near-owen-sound)
-          * [The Foundations](#https://pinterest.com)
-          * [Comradery](#https://michaelmurray.ca/riding-horses-near-owen-sound)
+        - **[Beginner Lessons](https://horseandrider.com/western-horse-life/why-kids-should-ride)**
+        - **[All Ages](https://michaelmurray.ca/riding-horses-near-owen-sound)**
+        - **[The Foundations](https://pinterest.com)**
+        - **[Comradery](https://michaelmurray.ca/riding-horses-near-owen-sound)**
 
     * Riding Video
-        * [A Riding Lesson](#https://www.youtube.com/embed/G1_GfM-zXTY)
+        - **[A Riding Lesson](https://www.youtube.com/embed/G1_GfM-zXTY)**
 
     * Accessories Page
-        * Main Image from [The Riders Reins](#https://www.theridersreins.co.uk/2019/01/what-to-pack-for-horse-show-with-free.html)
+        * Main Image from 
+        - **[The Riders Reins](https://www.theridersreins.co.uk/2019/01/what-to-pack-for-horse-show-with-free.html)**
     * Our Shop
-        * [Purple Hemlet](#https://za.pinterest.com/pin/338192253240492591)
-        * [Black Helmet](#https://horseyhooves.com/kids-horse-riding-helmets)
-        * [Padded Riding Vest](#http://www.suntekstore.com/goods-54007370-safety_equestrian_horse_riding_vest_protective_body_protector_black_youth_xl.html)
-        * [Jodhpurs](#https://www.hopevalleysaddlery.co.uk/saddlecraft-ladies-jiggy-jodhpurs-front-fastening.html)
-        * [Riding Boots](#https://www.amazon.co.uk/Rydale-Thirsk-Jodhpur-Boots/dp/B078TMMP9C")
-        * [Childrens Riding Gloves](#https://www.ebay.co.uk/itm/Shires-Suregrip-Horse-Riding-Gloves-Childrens-STRETCHY-Pimple-Palms-ALL-SIZES-/201900532896)
-        * [Childrens Riding Tops](#https://www.amazon.co.uk/s?k=Horse+Riding+Clothes+for+Kids)
+        - **[Purple Hemlet](https://za.pinterest.com/pin/338192253240492591)**
+        - **[Black Helmet](https://horseyhooves.com/kids-horse-riding-helmets)**
+        - **[Padded Riding Vest](http://www.suntekstore.com/goods-54007370-safety_equestrian_horse_riding_vest_protective_body_protector_black_youth_xl.html)**
+        - **[Jodhpurs](https://www.hopevalleysaddlery.co.uk/saddlecraft-ladies-jiggy-jodhpurs-front-fastening.html)**
+        - **[Riding Boots](https://www.amazon.co.uk/Rydale-Thirsk-Jodhpur-Boots/dp/B078TMMP9C")**
+        - **[Childrens Riding Gloves](https://www.ebay.co.uk/itm/Shires-Suregrip-Horse-Riding-Gloves-Childrens-STRETCHY-Pimple-Palms-ALL-SIZES-/201900532896)**
+        - **[Childrens Riding Tops](https://www.amazon.co.uk/s?k=Horse+Riding+Clothes+for+Kids)**
         
     * Contact Us Page
-        * Main Image from [Insidermonkey](#https://www.insidermonkey.com/blog/10-countries-that-have-the-most-horses-in-the-world-588413/8)
+        * Main Image from 
+        - **[Insidermonkey](https://www.insidermonkey.com/blog/10-countries-that-have-the-most-horses-in-the-world-588413/8)**
 
     * We Look Forward To Seeing You
-        * [Three Hores Heads](#https://acbackrubs.com.au/horses-1414889_1920)
+        - **[Three Hores Heads](https://acbackrubs.com.au/horses-1414889_1920)**
     
     ### Acknowledgement
     --------------------
