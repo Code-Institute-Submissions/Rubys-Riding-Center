@@ -136,6 +136,7 @@ mark {
 }
 
 /*--------------------------------Quotes*/
+
 .quotes-container {}
 
 .quotes p {
@@ -208,6 +209,7 @@ mark {
 }
 
 /*-----------------------------------------Footer*/
+
 .footer h6 {
     text-align: center;
 }
@@ -248,6 +250,7 @@ mark {
 }
 
 /*------------------------------------------Video Container*/
+
 .videoWrapper {
     position: relative;
     padding-bottom: 56.25%;
