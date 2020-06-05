@@ -30,6 +30,8 @@ We also cater for children with all types of disabilities be it physical or ment
 
 Children should all be able to feel normal. Being on, or close to a horse, gives them a special connection that empowers them. Results have been amazing to witness.
 
+Click the link below to see the website:
+
 [Ruby's Riding Center](#https://lee-annc.github.io/Rubys-Riding-Center/)
 
 [Back to Top](#table-of-contents)
@@ -96,8 +98,7 @@ The middle of the page is very visual with photos and a breakdown of what the ri
    - **[CSS:](https://en.wikipedia.org/wiki/CSS')**  - Cascading Style Sheet is a style sheet language that is used for describing the appearance    and presentation of a document written in HTML5. 
   - **[Bootstrap](https://getbootstrap.com/)** - Is a framework that customizes and makes the site mobile first responsive.I used it for its grid layout, styling,buttons and forms and for structuring the hamburgr button.
   - Git - installed on a local device and used to enable version control.
-  - **[Github](https://github.com/)**
-   - Used to host the repository of all previous versions upto and including the final build.
+  - **[Github](https://github.com/)** - Used to host the repository of all previous versions upto and including the final build.
   * Github pages - used to deploy the final site.
   - **[Balsamiq](https://balsamiq.com/wireframes/)** - Used for the initial build wireframes.
 
@@ -112,7 +113,8 @@ Deploying this website is achieved through Github pages by:
 
 * Selecting the repository from the list in the Github  dashboard - "Rubys-Riding-Center".
 * Navigating to 'Settings' and to the 'Github Pages' section.
-* The link to the website is found under "Github Pages" where it states- "Your site is published at <a "https://lee-annc.github.io/Rubys-Riding-Center/"></a>
+* The link to the website is found under "Github Pages" where it states- 
+"Your site is published at <a "https://lee-annc.github.io/Rubys-Riding-Center/"></a>
 
 To clone the website:
 
@@ -177,5 +179,5 @@ Paste the Git URL copied from above and click "Ok".
     ### Acknowledgement
     --------------------
     
-    This project was inspired by my little daughter and her love for people and horses. In her eyes all children are equal no matter their circumstances and combinedcombining that with her love for horses and everything horsey gave rise to a project that can grow as my knowledge grows.
+    This project was inspired by my little daughter and her love for people and horses. In her eyes all children are equal no matter their circumstances and combining that with her love for horses and everything horsey gave rise to a project that can grow as my knowledge grows.
     
