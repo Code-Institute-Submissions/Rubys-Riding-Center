@@ -132,7 +132,7 @@ mark {
 
 .features h4 {
     font-size: 1.5rem;
-    margin-left: 18px;
+
 }
 
 /*--------------------------------Quotes*/
@@ -323,24 +323,24 @@ h3 {
     margin-top: 20px;
 }
 
-.form-group {
-    margin-left: 40px;
-    margin-bottom: 0;
-
+.features {
+    padding-bottom: 20px;
 }
 
-.features {
-    padding-bottom: 10px;
+.form-group {
+    margin-bottom: 0;
 }
 
 .btn.btn-info {
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
-    margin-left: 40px;
+
 }
 
-
+.fa {
+    padding-right: 10px;
+}
 .final-media img {
     margin-top: -50px;
     margin-bottom: 35px;

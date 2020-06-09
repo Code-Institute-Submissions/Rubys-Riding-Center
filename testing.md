@@ -13,10 +13,8 @@ Chrome Dev tools was used alongside all my written code to make sure i was getti
     - **[My Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flee-annc.github.io%2FRubys-Riding-Center)**
 
 ### Problems and bugs
-- **Bootstrap and alignment:** The issue of allignment took me a very long time to sort out. With the help from the folks on slack i found that my order for bootstrap was incorrect. I was directed to watch a video which Anna(one of the tutors) made just on bootstrap.
+- **Bootstrap and alignment:** The issue of allignment took me a very long time to sort out. With the help from the folks on slack and my mentor i found that my order for bootstrap was incorrect. I was directed to watch a video which Anna (one of the tutors) made just on bootstrap.
 On correcting the order, things seemed to work better.
-
-
 
 * Contact form works as it should.
     * Go to the Our Newsletter Sign up
