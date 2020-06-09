@@ -22,3 +22,11 @@ On correcting the order, things seemed to work better.
     * If the user doesn not enter the email correctly and only enters abc@ the error message will say " Please enter the part following the @. This is incomplete.
 * This works the same for the "Message Us form".
 * this website is responsive from mobile up to large screen resolutions.
+
+### Testing on Web Browsers:
+
+The web browsers that i tested my site on were:
+- **[Firefox](https://en.wikipedia.org/wiki/Firefox)** My site opened perfectly, and was fully responsive with no issues arising.
+- **[Opera](https://https://en.wikipedia.org/wiki/Opera)** My site opened perfectly, and was fully responsive with no issues arising.
+- **[Chrome](https://en.wikipedia.org/wiki/Google_Chrome)** My site opened perfectly, and was fully responsive with no issues arising.
+- **[Safari](https://en.wikipedia.org/wiki/Safair)** On uploading my site to safari i noticed that the main image was too large, everything else on the site worked perfectly.
