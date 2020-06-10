@@ -67,6 +67,7 @@ body {
 
 /*--------------------------------------------Navbar*/
 
+
 .navbar-container {
     position: absolute;
     right: 0;
@@ -108,6 +109,10 @@ body {
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link {
     color: black;
+}
+
+.nav.navbar.fixed-top.navbar-light.navbar-expand-lg{
+    width: 1090px;
 }
 
 /*---------------------------------------------Box*/

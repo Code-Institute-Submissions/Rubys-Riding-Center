@@ -12,6 +12,7 @@
     * [Existing Features](#existing-features)
     * [Features To Implement](#features-to-implement)
 * [Technologies Used](#technologies-used)
+* [Testing](#testing)
 * [Deployment](#deploymet)
 * [Credits](#credits)
     * [Content](#content)
@@ -92,7 +93,7 @@ The middle of the page is very visual with photos and a breakdown of what the ri
 [Back to Top](#table-of-contents)
 
   ### Technologies Used:
-    --------------------
+    
    The technologies used in this project were:
    - **[HTML:](https://en.wikipedia.org/wiki/HTML')** - This is a markup language. It is used for rendering the website.
    - **[CSS:](https://en.wikipedia.org/wiki/CSS')**  - Cascading Style Sheet is a style sheet language that is used for describing the appearance    and presentation of a document written in HTML5. 
@@ -110,10 +111,53 @@ The middle of the page is very visual with photos and a breakdown of what the ri
    - **CSS:** The CSS Validator https://jigsaw.w3.org/css-validator/#validate_by_input was used to validate the css code.
    
    When running both of these validators in the beginning i found a few errors mainly typos and trailing div's. There were also some warnings for code that was correct and could be ignored. On correcting what needed to be corrected,  the code works well.
+### Testing with user stories:
 
+* As a parent , I want to find a place where my child can learn about horses and how to ride.
+    - Open the Ruby's Riding Center Website.
+    - Scroll down on the page to the middle and read what the children are encouraged to do.
+    - Go to the navigation bar at the top right of the page
+    - Click on the Lessons page
+    - Scroll down to the middle of the page
+    - Read about what the children are taught in a lesson
+    - Scroll down to the bottom of the Lessons page to the Riding Video
+    - This gives a short view of what a proper lesson entails.
+
+* As a parent, I want to build my childs confidence.
+* As a parent, I want my child to have fun while being safe.
+    - Open the Ruby's Riding Center Website.
+    - Scroll down on the page to the middle and read what the children are     encouraged to do.
+    
+* As a parent, I want to hear what others have to say about the place.
+    - Open the Ruby's Riding Center Website
+    - Scroll down to the bottom of the page
+    - Read what other parents have to say
+    - Go to the navigation bar in the top right of the page
+    - Click on the Contact page
+    - On the page you will see map with all the contact details below
+    - Contact the Riding Center for further information
+    - You can also fill in the message form
+    - Fill in the "Full Name" field, "Email" field and the "Message field", if the form is filled in correctly, click on the submit button, it then goes to the top of the page and the form clears.
+    - BUG: The "Full Name" fiel accepted all characters and numbers. Needed to validate it so it only accepted letters.
+    - If the "Email Adress" field is not correctly filled in, and error appears, please include "@" in the email address.
+
+* As a parent, I want my child to feel normal.
+    - - Open the Ruby's Riding Center Website
+    - Read through the home page and the lessons page to get a feel of the Riding Center.
+    - Go to the navigation bar in the top right of the page
+    - Click on the Accessories page
+    - Scroll to the bottom of the page, you will find a biweeekly newsletter sign up.
+    - fill in your email correctly.
+    - click sumbit
+    - If email is correctly filled in and submit button clicked it goes to the top of the page and the form clears.
+    -If not correctly completed the error message says " please include "@".
+    If this is included, eg 123@ the error message states "please enter part following "@", 123@ is incomplete.
+    
 ### Features and responsive testing:
 
 Chrome Dev tools was used alongside all my written code to make sure i was getting the responsiveness and size correct for the different pages.
+
+Starting with mobile first,
   
    - **Web-dev:** Web-dev measures your site to see how well it supporst your users and what you can do to increase your rate of support. Handy little tool. 
     - **[My Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flee-annc.github.io%2FRubys-Riding-Center)**
@@ -146,7 +190,7 @@ Deploying this website is achieved through Github pages by:
 * Selecting the repository from the list in the Github  dashboard - "Rubys-Riding-Center".
 * Navigating to 'Settings' and to the 'Github Pages' section.
 * The link to the website is found under "Github Pages" where it states- 
-"Your site is published at <a "https://lee-annc.github.io/Rubys-Riding-Center/"></a>
+"Your site is published at **("https://lee-annc.github.io/Rubys-Riding-Center/")**
 
 To clone the website:
 
@@ -155,7 +199,8 @@ To clone the website:
 * Click the "clipboard icon" to the right of the Git URL to copy the web URL of the Clone.
 * Open your preferred Integrated Development Environment (IDE) and navigate to the terminal window.
 * Change the directory to where you want to clone the repository too. 
-Paste the Git URL copied from above and click "Ok". 
+* Type git clone, and paste the URL you copied from above.
+* Press Enter and you have now created your local clone.
 
 [Back to Top](#table-of-contents)
 

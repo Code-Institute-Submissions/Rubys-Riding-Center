@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700/Roboto+Slab" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -88,26 +88,26 @@
                 </div>
                 <div class="message-container">
                     <div class="col-sm-12">
-                        <form>
-                            <h3 class="text-center">Message us</h3>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Full Name</label>
-                                <input type="text" class="form-control" id="exampleInputFullName1"
-                                    aria-describedby="emailHelp" placeholder="Enter your full name">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Enter email" required>
-                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
-                                    anyone
-                                    else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-info">Submit</button>
+                        <h3 class="text-center">Message us</h3>
+                        <form class="needs-validation">
+                        <div class="form-group">
+                            <label for="FullName">Full Name</label>
+                            <input type="text" class="form-control" id="FullName"
+                            placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email"
+                                aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea">Message</label>
+                            <textarea class="form-control" id="textarea" rows="5" placeholder="Your message here" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info">Submit</button>
                         </form>
                     </div>
                 </div>
