@@ -12,7 +12,7 @@
     * [Existing Features](#existing-features)
     * [Features To Implement](#features-to-implement)
 * [Technologies Used](#technologies-used)
-* [Testing](#testing)
+* [Testing -see Testing.md document](#testing)
 * [Deployment](#deploymet)
 * [Credits](#credits)
     * [Content](#content)
@@ -24,7 +24,7 @@
 ## RUBY'S RIDING CENTER
 ---------------------------
 
-### What is the progect all about?
+### What is the project all about?
 
 Ruby's Riding Center is a riding center for children of all ages. We believe children and horses have an amazing connection which builds confidence and healing.
 We also cater for children with all types of disabilities be it physical or mental.
@@ -105,81 +105,7 @@ The middle of the page is very visual with photos and a breakdown of what the ri
 
 [Back to Top](#table-of-contents)
 
-### Testing:
-   ------------
-   - **HTML:** The HTML Validator https://validator.w3.org/ was used to validate the HTML code.
-   - **CSS:** The CSS Validator https://jigsaw.w3.org/css-validator/#validate_by_input was used to validate the css code.
-   
-   When running both of these validators in the beginning i found a few errors mainly typos and trailing div's. There were also some warnings for code that was correct and could be ignored. On correcting what needed to be corrected,  the code works well.
-### Testing with user stories:
-
-* As a parent , I want to find a place where my child can learn about horses and how to ride.
-    - Open the Ruby's Riding Center Website.
-    - Scroll down on the page to the middle and read what the children are encouraged to do.
-    - Go to the navigation bar at the top right of the page
-    - Click on the Lessons page
-    - Scroll down to the middle of the page
-    - Read about what the children are taught in a lesson
-    - Scroll down to the bottom of the Lessons page to the Riding Video
-    - This gives a short view of what a proper lesson entails.
-
-* As a parent, I want to build my childs confidence.
-* As a parent, I want my child to have fun while being safe.
-    - Open the Ruby's Riding Center Website.
-    - Scroll down on the page to the middle and read what the children are     encouraged to do.
-    
-* As a parent, I want to hear what others have to say about the place.
-    - Open the Ruby's Riding Center Website
-    - Scroll down to the bottom of the page
-    - Read what other parents have to say
-    - Go to the navigation bar in the top right of the page
-    - Click on the Contact page
-    - On the page you will see map with all the contact details below
-    - Contact the Riding Center for further information
-    - You can also fill in the message form
-    - Fill in the "Full Name" field, "Email" field and the "Message field", if the form is filled in correctly, click on the submit button, it then goes to the top of the page and the form clears.
-    - BUG: The "Full Name" fiel accepted all characters and numbers. Needed to validate it so it only accepted letters.
-    - If the "Email Adress" field is not correctly filled in, and error appears, please include "@" in the email address.
-
-* As a parent, I want my child to feel normal.
-    - - Open the Ruby's Riding Center Website
-    - Read through the home page and the lessons page to get a feel of the Riding Center.
-    - Go to the navigation bar in the top right of the page
-    - Click on the Accessories page
-    - Scroll to the bottom of the page, you will find a biweeekly newsletter sign up.
-    - fill in your email correctly.
-    - click sumbit
-    - If email is correctly filled in and submit button clicked it goes to the top of the page and the form clears.
-    -If not correctly completed the error message says " please include "@".
-    If this is included, eg 123@ the error message states "please enter part following "@", 123@ is incomplete.
-    
-### Features and responsive testing:
-
-Chrome Dev tools was used alongside all my written code to make sure i was getting the responsiveness and size correct for the different pages.
-
-Starting with mobile first,
-  
-   - **Web-dev:** Web-dev measures your site to see how well it supporst your users and what you can do to increase your rate of support. Handy little tool. 
-    - **[My Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flee-annc.github.io%2FRubys-Riding-Center)**
-
-### Problems and bugs
-- **Bootstrap and alignment:** The issue of allignment took me a very long time to sort out. With the help from the folks on slack and my mentor i found that my order for bootstrap was incorrect. I was directed to watch a video which Anna (one of the tutors) made just on bootstrap.
-On correcting the order, things seemed to work better.
-
-* Contact form works as it should.
-    * Go to the Our Newsletter Sign up
-    * if the user does not enter an email the user will get the error - "Please include and @ in the email address".
-    * If the user doesn not enter the email correctly and only enters abc@ the error message will say " Please enter the part following the @. This is incomplete.
-* This works the same for the "Message Us form".
-* this website is responsive from mobile up to large screen resolutions.
-
-### Testing on Web Browsers:
-
-The web browsers that i tested my site on were:
-- **[Firefox](https://en.wikipedia.org/wiki/Firefox)** My site opened perfectly, and was fully responsive with no issues arising.
-- **[Opera](https://https://en.wikipedia.org/wiki/Opera)** My site opened perfectly, and was fully responsive with no issues arising.
-- **[Chrome](https://en.wikipedia.org/wiki/Google_Chrome)** My site opened perfectly, and was fully responsive with no issues arising.
-- **[Safari](https://en.wikipedia.org/wiki/Safair)** On uploading my site to safari i noticed that the main image was too large, everything else on the site worked perfectly.
+### Testing - see Testing.md document.
 
 ### Deployment
 ---------------
