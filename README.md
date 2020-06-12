@@ -33,7 +33,7 @@ Children should all be able to feel normal. Being on, or close to a horse, gives
 
 Click the link below to see the website:
 
-- **[Ruby's Riding Center](#https://lee-annc.github.io/Rubys-Riding-Center/)**
+ **[Ruby's Riding Center](https://lee-annc.github.io/Rubys-Riding-Center/)**
 
 [Back to Top](#table-of-contents)
 
@@ -69,7 +69,7 @@ _As a developer:_
 ### Wireframes 
 
 The structure and design of my project can be found here 
-- **[Wirerame](#https://drive.google.com/file/d/1nfrP4eSppv2wiGyWyQr04f3aymh2G8sS/view?usp=sharing)**
+ **[Wirerame](https://drive.google.com/file/d/1nfrP4eSppv2wiGyWyQr04f3aymh2G8sS/view?usp=sharing)**
 
 [Back to Top](#table-of-contents)
 
