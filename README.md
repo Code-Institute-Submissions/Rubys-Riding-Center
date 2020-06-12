@@ -107,7 +107,7 @@ The middle of the page is very visual with photos and a breakdown of what the ri
 [Back to Top](#table-of-contents)
 
 ### Testing
-- **[Testing.md](https://github.com/Lee-AnnC/Rubys-Riding-Center/blob/master/testing.md)**
+- **[Testing.md](testing.md)**
 
 ### Deployment
 ---------------
