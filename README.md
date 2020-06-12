@@ -261,7 +261,10 @@ To clone the website:
 -----------
 
 #### Content
-* the content for this progect came from myself
+* the content for this project came from myself
+* The map was taken from google maps.
+* css-tricks.com helped with the fluid alignment of the video
+* My mentor advised on the thumbnail code for the alignment of the photos.
 
 #### Media
 
