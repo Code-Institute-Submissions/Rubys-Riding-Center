@@ -12,7 +12,7 @@
     * [Existing Features](#existing-features)
     * [Features To Implement](#features-to-implement)
 * [Technologies Used](#technologies-used)
-* [Testing -see Testing.md document](#testing)
+* [Testing.md](https://github.com/Lee-AnnC/Rubys-Riding-Center/blob/master/testing.md)
 * [Deployment](#deploymet)
 * [Credits](#credits)
     * [Content](#content)
