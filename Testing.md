@@ -89,6 +89,19 @@ Chrome Dev tools was used alongside all my written code to make sure i was getti
      - The middle of the page now has the images 3 next to each other and then 3 rows down. There is space to add aditionoal items.
      - At the bottom of the page the sign up newsletter section is now expanded to cover the size of the lower page
 
+     -On full screen the page looks the same as on the ipad-pro just a little larger.
+
+- **Contact Page:** 
+    - On mobile the navigation bar is collapsed to a hamberger menu (three lines). On clicking it the navigation bar appears with all pages listed.
+    - In the middle of the page is an interactive map with the riding Centers contact address, email and contact number.
+    - Below the map is the "Message us" form. A contact form for the parents to get hold of the riding center.
+    - Below is a Beautiful photo of horses stating "We Look Forward To Seeing You" which leaves the client with a happy feeling.
+
+    - On IPAD-PRO the navigation bar is now expanded and the page links can be seen.
+    - In the middle of the page the map and the message form are now next together. ( i had a problem with them throwing the alignment out on the page, this is why they are so close together.)
+
+    -On full screen the page looks the same as on the ipad-pro just a little larger.
+
    - **Web-dev:** Web-dev measures your site to see how well it supporst your users and what you can do to increase your rate of support. Handy little tool. 
     - **[My Report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Flee-annc.github.io%2FRubys-Riding-Center)**
 
