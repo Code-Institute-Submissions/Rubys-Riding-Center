@@ -3,21 +3,21 @@
 
 ## Table of Contents:
 
-* [What is the project all about?](#what-is-it-all-about)
-* [Functionality of Project](#functionality-of-project)
-* [User Experience](#user-experience)
-    * [User Stories](#user-stories)
-* [Wireframes link](#wireframes-link)
+* [What is the project all about?](what-is-it-all-about)
+* [Functionality of Project](functionality-of-project)
+* [User Experience](user-experience)
+    * [User Stories](user-stories)
+* [Wireframes link](wireframes-link)
 * [Features](features)
-    * [Existing Features](#existing-features)
-    * [Features To Implement](#features-to-implement)
-* [Technologies Used](#technologies-used)
+    * [Existing Features](existing-features)
+    * [Features To Implement](features-to-implement)
+* [Technologies Used](technologies-used)
 * [Testing.md](https://github.com/Lee-AnnC/Rubys-Riding-Center/blob/master/testing.md)
-* [Deployment](#deploymet)
-* [Credits](#credits)
-    * [Content](#content)
-    * [Media](#media)
-    * [Acknowledgements](#acknowledgments)
+* [Deployment](deploymet)
+* [Credits](credits)
+    * [Content](content)
+    * [Media](media)
+    * [Acknowledgements](acknowledgments)
 
 ***
 
