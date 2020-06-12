@@ -4,7 +4,6 @@
 ## Table of Contents:
 
 * [What is the project all about?](#what-is-it-all-about)
-* [Functionality of Project](#functionality-of-project)
 * [User Experience](#user-experience)
     * [User Stories](#user-stories)
 * [Wireframes link](#wireframes-link)
@@ -106,15 +105,13 @@ The middle of the page is very visual with photos and a breakdown of what the ri
 
 [Back to Top](#table-of-contents)
 
-### Testing
-
 ### Testing:
    ------------
    - **HTML:** The HTML Validator https://validator.w3.org/ was used to validate the HTML code.
    - **CSS:** The CSS Validator https://jigsaw.w3.org/css-validator/#validate_by_input was used to validate the css code.
    
    When running both of these validators in the beginning i found a few errors mainly typos and trailing div's. There were also some warnings for code that was correct and could be ignored. On correcting what needed to be corrected,  the code works well.
-   <img width="250" height="300" src="readme-images/ss-index01.jpg">
+  
 ### Testing with user stories:
 
 * As a parent , I want to find a place where my child can learn about horses and how to ride.
