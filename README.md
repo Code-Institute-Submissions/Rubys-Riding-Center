@@ -12,7 +12,7 @@
 * [Existing Features](#existing-features)
 * [Features To Implement](#features-to-implement)
 * [Technologies Used](#technologies-used)
-* [Testing.md](https://github.com/Lee-AnnC/Rubys-Riding-Center/blob/master/testing.md)
+* [Testing.md](#testing)
 * [Deployment](#deploymet)
 * [Credits](#credits)
 * [Content](#content)
@@ -106,7 +106,8 @@ The middle of the page is very visual with photos and a breakdown of what the ri
 
 [Back to Top](#table-of-contents)
 
-### Testing - see Testing.md document.
+### Testing
+- **[Testing.md](https://github.com/Lee-AnnC/Rubys-Riding-Center/blob/master/testing.md)**
 
 ### Deployment
 ---------------
